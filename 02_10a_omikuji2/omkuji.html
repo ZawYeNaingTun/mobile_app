@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>おみくじゲーム</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/omikuji.css"> <!-- --CSSファイルを読み込む -->
+    </head>
+    <body>
+        <div class = "back">
+            <button id="btn99" class="btn" type="button" onclick="history.back()">back</button>
+        </div>
+        <!--オープニングシャッターアニメーション-->
+        <div class="shutter opening"></div>
+
+        <header>今日のあなたの運勢（うんせい）は?</header>
+
+        <div class="wrapper" title="大吉（だいきち）だといいね～">
+            <div clas="omikuji">
+                <div id="btn1"></div>
+                <div id="omikujiText"></div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2025 s247087 ZAW YE NAING TUN</p>        
+        </footer>
+
+        <!-- jQueryライブラリを使用する。 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script><!-- "libs" is first priority -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="assets/snowfall.jquery.min.js"></script>
+        <script src="assets/jquery.lettering.js"></script>
+        <script src="assets/jquery.textillate.js"></script>
+
+        <script src="js/omikuji.js"></script>
+    </body>
+
+</html>
