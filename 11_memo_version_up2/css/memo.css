@@ -18,7 +18,7 @@ body{
   text-align: center;
   /* background-color:rgba(233, 168, 227, 0.6);
   background-blend-mode: soft-light; */
-  background-image: url(../img/backimg.JPG);
+  background-image: url(../img/backimg.jpg);
   background-size: cover;
 }
 
@@ -172,4 +172,5 @@ table tr{
   font-size: 1.5em;
   background: rgb(26, 212, 212);
   cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
+
 }
